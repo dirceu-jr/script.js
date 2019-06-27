@@ -1,2 +1,19 @@
-# view script.js
-script.js boilerplate
+```
+var JS = (function() {
+
+  function private() {
+    console.log("=:)");
+  }
+
+  function init() {
+    private();
+  }
+
+  return {
+    init: init
+}
+
+})();
+
+JS.init();
+```
