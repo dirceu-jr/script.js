@@ -11,7 +11,7 @@ var JS = (function() {
 
   return {
     init: init
-}
+  }
 
 })();
 
