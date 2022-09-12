@@ -1,7 +1,7 @@
 Basic usage:
 
 ```
-var JS = (function() {
+var App = (function() {
 
   function private() {
     console.log("=:)");
@@ -17,5 +17,5 @@ var JS = (function() {
 
 })();
 
-JS.init();
+App.init();
 ```

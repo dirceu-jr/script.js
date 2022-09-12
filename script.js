@@ -1,4 +1,4 @@
-var JS = (function() {
+var App = (function() {
 
   function private() {
     console.log("=:)");
@@ -10,8 +10,8 @@ var JS = (function() {
 
   return {
     init: init
-}
+  }
 
 })();
 
-JS.init();
+App.init();
